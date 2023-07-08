@@ -41,17 +41,15 @@ To use the CineSuggest application, follow these steps:
 
 2. Make sure you have the required libraries installed. You can use the following command to install them:  `pip install numpy pandas scikit-learn nltk streamlit requests`
 
-3. Download the movie dataset files (`tmdb_5000_movies.csv` and `tmdb_5000_credits.csv`) from [TMDB Movie Metadata](https://www.kaggle.com/tmdb/tmdb-movie-metadata). Place these files in the same directory as the project files.
+3. Run the `CineSuggest.py` file to process the movie dataset and generate the necessary data files (`movie_orig.pkl`, `movie_list.pkl`, and `similarity.pkl`).
 
-4. Run the `CineSuggest.py` file to process the movie dataset and generate the necessary data files (`movie_orig.pkl`, `movie_list.pkl`, and `similarity.pkl`).
+4. After the data files are generated, run the `app.py` file to launch the CineSuggest application using Streamlit. The application will be accessible through a web browser.
 
-5. After the data files are generated, run the `app.py` file to launch the CineSuggest application using Streamlit. The application will be accessible through a web browser.
+5. In the web interface, select a movie from the dropdown list or type its name in the input field.
 
-6. In the web interface, select a movie from the dropdown list or type its name in the input field.
+6. Click the "Show Suggestions" button to view the recommended movies. The interface will display the selected movie along with its poster and overview, followed by a list of similar movies with their posters and descriptions.
 
-7. Click the "Show Recommendation" button to view the recommended movies. The interface will display the selected movie along with its poster and overview, followed by a list of similar movies with their posters and descriptions.
-
-8. Explore different movies and discover new recommendations!
+7. Explore different movies and discover new recommendations!
 
 Please note that the CineSuggest application requires an internet connection to fetch movie information from the TMDB API.
 
