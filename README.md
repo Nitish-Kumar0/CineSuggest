@@ -55,9 +55,6 @@ Please note that the CineSuggest application requires an internet connection to 
 
 
 
-https://github.com/Nitish-Kumar0/CineSuggest/assets/109269353/6ba1d5d1-f603-4b7f-b5fd-16ec96319430
-
-
 
 ---
 
