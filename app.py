@@ -33,7 +33,7 @@ selected_movie = st.selectbox(
     movie_list
 )
 
-if st.button('Show Recommendation'):
+if st.button('Show Suggestions'):
     recommended_movies = recommend(selected_movie)
 
     st.subheader('Selected Movie:')
