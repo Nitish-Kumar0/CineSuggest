@@ -53,6 +53,12 @@ To use the CineSuggest application, follow these steps:
 
 Please note that the CineSuggest application requires an internet connection to fetch movie information from the TMDB API.
 
+
+
+https://github.com/Nitish-Kumar0/CineSuggest/assets/109269353/6ba1d5d1-f603-4b7f-b5fd-16ec96319430
+
+
+
 ---
 
 With CineSuggest, you can easily find movies similar to your favorites and discover new films that match your interests. Enjoy exploring the world of cinema!
